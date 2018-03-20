@@ -5,45 +5,7 @@
         <link href="./styles/style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-          <div class="header-content">
-              <a href="/index.html"><img src="./img/logo.png"></a>
-              <div id="special-nav">
-                  <a href="/basket.html" id="basket">Корзина(0)</a>
-                  <a href="#" class="active">
-                      Ru
-                  </a>
-                  <a href="#">
-                      En
-                  </a>
-              </div>
-              <nav id="main-menu">
-                  <ul>
-                      <li>
-                          <a href="/index.html">О нас</a>
-                      </li>
-                      <li>
-                          <a href="/store.html">Магазин</a>
-                      </li>
-                      <li>
-                          <a href="/blog.html" class="active">Блог</a>
-                      </li>
-                      <li>
-                          <a href="/faq.html">FAQ</a>
-                      </li>
-                      <li>
-                          <a href="/contacts.html">Контакты</a>
-                      </li>
-                      <li>
-                          <a href="/reviews.html">Отзывы</a>
-                      </li>
-                      <li>
-                          <a href="/partners.html">Партнеры</a>
-                      </li>
-                  </ul>
-              </nav>
-            </div>
-        </header>
+        <?php include ("blocks/header.php"); ?>
 
         <main class="main-container">
           <ul id="pass">
@@ -65,28 +27,6 @@
           </div>
           </main>
 
-        <footer>
-            <a href="/index.html"><img src="./img/logo.png"></a>
-            <p>Copyright 2017. All rights Reserved</p>
-            <nav>
-                <ul id = "social-network">
-                    <li>
-                        <a href="#" class="facebook"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="instagram"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="vimeo"></a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
+        <?php include ("blocks/footer.php"); ?>
     </body>
 </html>
