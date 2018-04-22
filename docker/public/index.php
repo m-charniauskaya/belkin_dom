@@ -5,7 +5,7 @@
         <link href="./styles/style.css" rel="stylesheet">
     </head>
     <body>
-      <?php include ("blocks/header.php"); ?>
+      <?php include ("try.php"); ?>
         <main>
             <div id="picture">
               <h1>Современные вязаные предметы интерьера</h1>
