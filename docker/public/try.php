@@ -6,7 +6,12 @@
     function __construct ($items) {
 
       foreach ($items as $value) {
-        $value = new MenuItem ($value['link_name'], $value['link'], $value['active_pages']);
+        $this->items[] = new MenuItem ($value['link_name'], $value['link'], $value['active_pages']);
+      }
+    }
+
+    function __toString () {
+      foreach ($this->items as $value) {
         $value->showItem();
       }
     }
