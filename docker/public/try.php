@@ -11,9 +11,11 @@
     }
 
     function __toString () {
+      $content = '';
       foreach ($this->items as $value) {
-        $value->showItem();
+        $content .= $value->showItem();
       }
+      return $content;
     }
   }
 
@@ -86,6 +88,7 @@
             ["link_name" => "Отзывы", "link" => "/reviews.php", "active_pages" => ["reviews.php"]],
             ["link_name" => "Партнеры", "link" => "/partners.php", "active_pages" => ["partners.php"]]
           ]);
+          echo $menu;
            ?>
         </ul>
     </nav>
