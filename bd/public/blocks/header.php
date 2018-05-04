@@ -1,10 +1,8 @@
 <header>
-  <?php require __DIR__ . '/../../vendor/autoload.php';?>
-  <?php include ("./objMenu.php");?>
   <div class="header-content">
-      <a href="/index.html"><img src="./img/logo.png"></a>
+      <a href="/index"><img src="./img/logo.png"></a>
       <div id="special-nav">
-          <a href="/basket.html" id="basket">Корзина(0)</a>
+          <a href="/basket" id="basket">Корзина(0)</a>
           <a href="#" class="active">
               Ru
           </a>

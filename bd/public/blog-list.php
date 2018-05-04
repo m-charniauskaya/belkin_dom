@@ -1,11 +1,3 @@
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>белкин дом</title>
-        <link href="./styles/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <?php include ("blocks/header.php"); ?>
 
         <main class="main-container">
           <ul id="post-list">
@@ -42,7 +34,3 @@
           </ul>
 
         </main>
-
-        <?php include ("blocks/footer.php"); ?>
-    </body>
-</html>
