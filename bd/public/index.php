@@ -2,38 +2,7 @@
 
   require __DIR__ . '/../vendor/autoload.php';
   include ("./objMenu.php");
-
-  $page = '';
-
-  switch (substr ( $_SERVER['REQUEST_URI'], 1)) {
-    case 'index':
-      $page = 'index_main';
-      break;
-    case 'basket':
-      $page = 'basket';
-      break;
-    case 'blog':
-      $page = 'blog-list';
-      break;
-    case 'faq':
-      $page = 'faq';
-      break;
-    case 'partners':
-      $page = 'partners';
-      break;
-    case 'reviews':
-      $page = 'reviews';
-      break;
-    case 'store':
-      $page = 'store';
-      break;
-    case 'order':
-      $page = 'order';
-      break;
-    case 'contacts':
-      $page = 'contacts';
-      break;
-  };
+  include ("./objRouter.php");
 
 ?>
 
@@ -45,7 +14,7 @@
     </head>
     <body>
       <?php include ("blocks/header.php"); ?>
-      <?php include ($page.'.php'); ?>
+      <?php include ($pages->getRouteTemplate().'.php'); ?>
       <?php include ("blocks/footer.php");?>
     </body>
 </html>
