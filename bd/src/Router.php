@@ -1,5 +1,7 @@
 <?php
 
+class RouterException extends Exception {};
+
 class Router {
   public $pages = [];
 
