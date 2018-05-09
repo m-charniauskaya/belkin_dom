@@ -19,6 +19,10 @@ class ComposerStaticInitb23f35f32e9b6176dddcbe3f90d6403d
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'S' => 
+        array (
+            'Symfony\\Component\\Yaml\\' => 23,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -36,6 +40,10 @@ class ComposerStaticInitb23f35f32e9b6176dddcbe3f90d6403d
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

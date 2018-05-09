@@ -1,0 +1,40 @@
+1:
+ link_name: О нас
+ link: /index
+ active_pages:
+   - index
+2:
+ link_name: Магазин
+ link: /store
+ active_pages:
+   - store
+   - item
+   - slider
+   - order
+   - confirm
+3:
+ link_name: Блог
+ link: /blog
+ active_pages:
+   - blog
+   - blogpost
+4:
+  link_name: FAQ
+  link: /faq
+  active_pages:
+    - faq
+5:
+  link_name: Контакты
+  link: /contacts
+  active_pages:
+    - contacts
+6:
+  link_name: Отзывы
+  link: /reviews
+  active_pages:
+    - reviews
+7:
+  link_name: Партнеры
+  link: /partners
+  active_pages:
+    - partners

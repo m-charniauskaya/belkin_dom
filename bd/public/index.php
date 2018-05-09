@@ -1,8 +1,7 @@
 <?php
 
   require __DIR__ . '/../vendor/autoload.php';
-  include ("./objMenu.php");
-  include ("./objRouter.php");
+  include ("../configs/config.php");
 
 ?>
 
